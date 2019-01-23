@@ -6,6 +6,18 @@
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/wp-content/themes/hecate-rising/favicon.ico">
+        <!-- Material Icons -->
+        <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <!--
@@ -43,7 +55,7 @@
         To begin the development, run `npm run wpstart` or `yarn wpstart`.
         To create a production bundle, use `npm run wpbuild` or `yarn wpbuild`.
     -->
-    <script src="/wp-content/themes/hecate-rising/static/js/bundle.js"></script><script src="/wp-content/themes/hecate-rising/static/js/0.chunk.js"></script><script src="/wp-content/themes/hecate-rising/static/js/main.chunk.js"></script><?php $BRC_TEMPLATE_PATH = parse_url(get_template_directory_uri(), PHP_URL_PATH); ?>
+    <script src="/wp-content/themes/hecate-rising/static/js/bundle.js"></script><script src="/wp-content/themes/hecate-rising/static/js/1.chunk.js"></script><script src="/wp-content/themes/hecate-rising/static/js/main.chunk.js"></script><?php $BRC_TEMPLATE_PATH = parse_url(get_template_directory_uri(), PHP_URL_PATH); ?>
 <script src='<?php echo $BRC_TEMPLATE_PATH; ?>/react-src/node_modules/@devloco/react-scripts-wptheme-utils/wpThemeClient.js'></script>
 <script src='<?php echo $BRC_TEMPLATE_PATH; ?>/react-src/node_modules/@devloco/react-scripts-wptheme-error-overlay/wpThemeErrorOverlay.js'></script>
 
