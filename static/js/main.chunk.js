@@ -13,7 +13,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".primary-overlay {\n  background: rgba(0, 0, 0, 0.4);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden; }\n\n.main-header {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  height: 100vh;\n  color: #fff; }\n\n.main-header .showcase {\n  padding-top: 100px; }\n\n.main-header-inner {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 350px;\n  color: #fff; }\n\n.main-header-inner .showcase {\n  padding-top: 50px; }\n\n.active-link {\n  color: #3f51b5;\n  font-weight: bold; }\n\n.featured-img {\n  margin: 5rem;\n  width: 60%;\n  height: 60%; }\n\n.lgi {\n  background-image: linear-gradient(to right, #1a237e, #5c6bc0) !important;\n  color: transparent;\n  -webkit-background-clip: text;\n          background-clip: text;\n  margin-top: 700px !important; }\n", ""]);
+exports.push([module.i, ".primary-overlay {\n  background: rgba(0, 0, 0, 0.4);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden; }\n\n.main-header {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  height: 100vh;\n  color: #fff; }\n\n.main-header .showcase {\n  padding-top: 100px; }\n\n.main-header-inner {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 350px;\n  color: #fff; }\n\n.main-header-inner .showcase {\n  padding-top: 50px; }\n\n.active-link {\n  color: #3f51b5;\n  font-weight: bold; }\n\n.featured-img {\n  margin: 5rem;\n  width: 60%;\n  height: 60%; }\n\n.lgi {\n  background-image: linear-gradient(to right, #1a237e, #5c6bc0) !important;\n  color: transparent;\n  -webkit-background-clip: text;\n          background-clip: text;\n  margin-top: 700px !important; }\n\n.hoverul:hover {\n  text-decoration: underline !important; }\n\n.hard-right {\n  text-align: right !important; }\n", ""]);
 
 // exports
 
@@ -32,7 +32,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".my-0 {\n  margin-top: 0px !important;\n  margin-bottom: 0px !important; }\n\n.mt-0 {\n  margin-top: 0px !important; }\n\n.mt-5 {\n  margin-top: 5vh !important; }\n\n.mt-10 {\n  margin-top: 10vh !important; }\n\n.mt-15 {\n  margin-top: 15vh !important; }\n\n.mt-20 {\n  margin-top: 20vh !important; }\n\n.mt-25 {\n  margin-top: 25vh !important; }\n\n.mb-0 {\n  margin-bottom: 0px !important; }\n\n.mb-25 {\n  margin-bottom: 25px !important; }\n\n.mx-0 {\n  margin-right: 0px !important;\n  margin-left: 0px !important; }\n\n.mx-auto {\n  margin-right: auto !important;\n  margin-left: auto !important; }\n\n.mr-0 {\n  margin-right: 0px !important; }\n\n.mr-1 {\n  margin-right: 1vw !important; }\n\n.mr-15 {\n  margin-right: 15px !important; }\n\n.mr-25 {\n  margin-right: 25px !important; }\n\n.ml-0 {\n  margin-left: 0px !important; }\n\n.ml-1 {\n  margin-left: 1vw !important; }\n\n.ml-15 {\n  margin-left: 15px !important; }\n\n.py-0 {\n  padding-top: 0px !important;\n  padding-bottom: 0px !important; }\n\n.py-15 {\n  padding-top: 15px !important;\n  padding-bottom: 15px !important; }\n\n.pt-15 {\n  padding-top: 15px !important; }\n\n.pb-15 {\n  padding-bottom: 15px !important; }\n\n.pb-25 {\n  padding-bottom: 25px !important; }\n\n.pt-0 {\n  padding-top: 0px !important; }\n\n.pb-0 {\n  padding-bottom: 0px !important; }\n\n.px-0 {\n  padding-right: 0px !important;\n  padding-left: 0px !important; }\n\n.pr-0 {\n  padding-right: 0px !important; }\n\n.pl-0 {\n  padding-left: 0px !important; }\n", ""]);
+exports.push([module.i, ".my-0 {\n  margin-top: 0px !important;\n  margin-bottom: 0px !important; }\n\n.mt-0 {\n  margin-top: 0px !important; }\n\n.mt-5 {\n  margin-top: 5vh !important; }\n\n.mt-10 {\n  margin-top: 10vh !important; }\n\n.mt-15 {\n  margin-top: 15vh !important; }\n\n.mt-20 {\n  margin-top: 20vh !important; }\n\n.mt-25 {\n  margin-top: 25vh !important; }\n\n.mb-0 {\n  margin-bottom: 0px !important; }\n\n.mb-25 {\n  margin-bottom: 25px !important; }\n\n.mb-5 {\n  margin-bottom: 5vh !important; }\n\n.mx-0 {\n  margin-right: 0px !important;\n  margin-left: 0px !important; }\n\n.mx-auto {\n  margin-right: auto !important;\n  margin-left: auto !important; }\n\n.mr-0 {\n  margin-right: 0px !important; }\n\n.mr-1 {\n  margin-right: 1vw !important; }\n\n.mr-15 {\n  margin-right: 15px !important; }\n\n.mr-25 {\n  margin-right: 25px !important; }\n\n.ml-0 {\n  margin-left: 0px !important; }\n\n.ml-1 {\n  margin-left: 1vw !important; }\n\n.ml-15 {\n  margin-left: 15px !important; }\n\n.py-0 {\n  padding-top: 0px !important;\n  padding-bottom: 0px !important; }\n\n.py-3 {\n  padding-top: 3vh !important;\n  padding-bottom: 3vh !important; }\n\n.py-15 {\n  padding-top: 15px !important;\n  padding-bottom: 15px !important; }\n\n.pt-15 {\n  padding-top: 15px !important; }\n\n.pb-15 {\n  padding-bottom: 15px !important; }\n\n.pb-25 {\n  padding-bottom: 25px !important; }\n\n.pt-0 {\n  padding-top: 0px !important; }\n\n.pb-0 {\n  padding-bottom: 0px !important; }\n\n.px-0 {\n  padding-right: 0px !important;\n  padding-left: 0px !important; }\n\n.pr-0 {\n  padding-right: 0px !important; }\n\n.pl-0 {\n  padding-left: 0px !important; }\n", ""]);
 
 // exports
 
@@ -59,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_App_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_scss_App_scss__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _scss_pbml_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./scss/pbml.scss */ "./src/scss/pbml.scss");
 /* harmony import */ var _scss_pbml_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_scss_pbml_scss__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Header */ "./src/components/Header.js");
+/* harmony import */ var _components_header_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/header/Header */ "./src/components/header/Header.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
 /* harmony import */ var materialize_css_dist_css_materialize_min_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! materialize-css/dist/css/materialize.min.css */ "./node_modules/materialize-css/dist/css/materialize.min.css");
 /* harmony import */ var materialize_css_dist_css_materialize_min_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(materialize_css_dist_css_materialize_min_css__WEBPACK_IMPORTED_MODULE_10__);
@@ -104,7 +104,7 @@ function (_Component) {
           lineNumber: 15
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_header_Header__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -144,16 +144,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
-/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Home */ "./src/components/Home.js");
-/* harmony import */ var _components_Signin__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Signin */ "./src/components/Signin.js");
-/* harmony import */ var _components_Signup__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Signup */ "./src/components/Signup.js");
-/* harmony import */ var _components_Checkout__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Checkout */ "./src/components/Checkout.js");
+/* harmony import */ var _components_home_Home__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/home/Home */ "./src/components/home/Home.js");
+/* harmony import */ var _components_shop_Shop__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/shop/Shop */ "./src/components/shop/Shop.js");
+/* harmony import */ var _components_Signin__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Signin */ "./src/components/Signin.js");
+/* harmony import */ var _components_Signup__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Signup */ "./src/components/Signup.js");
+/* harmony import */ var _components_Checkout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Checkout */ "./src/components/Checkout.js");
 
 
 
 
 
 var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\Routes.js";
+
 
 
 
@@ -178,46 +180,54 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Switch"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
-        component: _components_Home__WEBPACK_IMPORTED_MODULE_7__["default"],
-        exact: true,
-        path: "/",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
-        component: _components_Signin__WEBPACK_IMPORTED_MODULE_8__["default"],
-        path: "/signin",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+        component: _components_home_Home__WEBPACK_IMPORTED_MODULE_7__["default"],
+        exact: true,
+        path: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
-        component: _components_Signup__WEBPACK_IMPORTED_MODULE_9__["default"],
-        path: "/signup",
+        component: _components_shop_Shop__WEBPACK_IMPORTED_MODULE_8__["default"],
+        path: "/shop",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
-        component: _components_Checkout__WEBPACK_IMPORTED_MODULE_10__["default"],
-        path: "/checkout",
+        component: _components_Signin__WEBPACK_IMPORTED_MODULE_9__["default"],
+        path: "/signin",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+        component: _components_Signup__WEBPACK_IMPORTED_MODULE_10__["default"],
+        path: "/signup",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
+        component: _components_Checkout__WEBPACK_IMPORTED_MODULE_11__["default"],
+        path: "/checkout",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
         },
         __self: this
       })));
@@ -286,9 +296,9 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./src/components/Header.js":
+/***/ "./src/components/Signin.js":
 /*!**********************************!*\
-  !*** ./src/components/Header.js ***!
+  !*** ./src/components/Signin.js ***!
   \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -302,15 +312,125 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Navbar */ "./src/components/Navbar.js");
-/* harmony import */ var _Sidenav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Sidenav */ "./src/components/Sidenav.js");
-/* harmony import */ var _HomeLanding__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./HomeLanding */ "./src/components/HomeLanding.js");
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Signin.js";
+
+
+var Signin =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Signin, _React$Component);
+
+  function Signin() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Signin);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Signin).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Signin, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        },
+        __self: this
+      }, "Signin");
+    }
+  }]);
+
+  return Signin;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Signin);
+
+/***/ }),
+
+/***/ "./src/components/Signup.js":
+/*!**********************************!*\
+  !*** ./src/components/Signup.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Signup.js";
+
+
+var Signup =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Signup, _React$Component);
+
+  function Signup() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Signup);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Signup).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Signup, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5
+        },
+        __self: this
+      }, "Signup");
+    }
+  }]);
+
+  return Signup;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Signup);
+
+/***/ }),
+
+/***/ "./src/components/header/Header.js":
+/*!*****************************************!*\
+  !*** ./src/components/header/Header.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Navbar */ "./src/components/header/Navbar.js");
+/* harmony import */ var _Sidenav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Sidenav */ "./src/components/header/Sidenav.js");
+/* harmony import */ var _HomeLanding__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./HomeLanding */ "./src/components/header/HomeLanding.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\header\\Header.js";
 
 
 
@@ -373,65 +493,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./src/components/Home.js":
-/*!********************************!*\
-  !*** ./src/components/Home.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-
-
-
-
-
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Home.js";
-
-
-var Home =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Home, _React$Component);
-
-  function Home() {
-    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Home);
-
-    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Home).apply(this, arguments));
-  }
-
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Home, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 5
-        },
-        __self: this
-      }, "Home");
-    }
-  }]);
-
-  return Home;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Home);
-
-/***/ }),
-
-/***/ "./src/components/HomeLanding.js":
-/*!***************************************!*\
-  !*** ./src/components/HomeLanding.js ***!
-  \***************************************/
+/***/ "./src/components/header/HomeLanding.js":
+/*!**********************************************!*\
+  !*** ./src/components/header/HomeLanding.js ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -447,14 +512,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
 /* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
-/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/fcrystal.jpg */ "./src/img/fcrystal.jpg");
+/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../img/fcrystal.jpg */ "./src/img/fcrystal.jpg");
 /* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\HomeLanding.js";
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\header\\HomeLanding.js";
  // Import Materialize
 
 
@@ -551,14 +616,15 @@ function (_Component) {
           lineNumber: 30
         },
         __self: this
-      }, "Anime Super Store"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, "Boho Boutique"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "row center",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        to: "/shop",
         class: "waves-effect waves-light btn-large indigo",
         __source: {
           fileName: _jsxFileName,
@@ -583,10 +649,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./src/components/Navbar.js":
-/*!**********************************!*\
-  !*** ./src/components/Navbar.js ***!
-  \**********************************/
+/***/ "./src/components/header/Navbar.js":
+/*!*****************************************!*\
+  !*** ./src/components/header/Navbar.js ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -607,7 +673,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\header\\Navbar.js";
  // Import Materialize
 
 
@@ -691,7 +757,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
-        to: "/solutions",
+        to: "/shop",
         activeClassName: "active-link",
         __source: {
           fileName: _jsxFileName,
@@ -813,10 +879,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./src/components/Sidenav.js":
-/*!***********************************!*\
-  !*** ./src/components/Sidenav.js ***!
-  \***********************************/
+/***/ "./src/components/header/Sidenav.js":
+/*!******************************************!*\
+  !*** ./src/components/header/Sidenav.js ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -837,7 +903,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Sidenav.js";
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\header\\Sidenav.js";
  // Import Materialize
 
 
@@ -899,7 +965,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
-        to: "/solutions",
+        to: "/shop",
         activeClassName: "active-link",
         __source: {
           fileName: _jsxFileName,
@@ -1005,10 +1071,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./src/components/Signin.js":
-/*!**********************************!*\
-  !*** ./src/components/Signin.js ***!
-  \**********************************/
+/***/ "./src/components/home/Home.js":
+/*!*************************************!*\
+  !*** ./src/components/home/Home.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1021,49 +1087,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Optin__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Optin */ "./src/components/home/Optin.js");
+/* harmony import */ var _Slider__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Slider */ "./src/components/home/Slider.js");
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Signin.js";
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\home\\Home.js";
 
 
-var Signin =
+
+
+var Home =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Signin, _React$Component);
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Home, _React$Component);
 
-  function Signin() {
-    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Signin);
+  function Home() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Home);
 
-    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Signin).apply(this, arguments));
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Home).apply(this, arguments));
   }
 
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Signin, [{
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Home, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 5
+          lineNumber: 9
         },
         __self: this
-      }, "Signin");
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Slider__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Optin__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
+      }));
     }
   }]);
 
-  return Signin;
+  return Home;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Signin);
+/* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ "./src/components/Signup.js":
-/*!**********************************!*\
-  !*** ./src/components/Signup.js ***!
-  \**********************************/
+/***/ "./src/components/home/Optin.js":
+/*!**************************************!*\
+  !*** ./src/components/home/Optin.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1081,21 +1164,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Signup.js";
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\home\\Optin.js";
 
 
-var Signup =
+var Optin =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Signup, _React$Component);
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Optin, _React$Component);
 
-  function Signup() {
-    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Signup);
+  function Optin() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Optin);
 
-    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Signup).apply(this, arguments));
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Optin).apply(this, arguments));
   }
 
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Signup, [{
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Optin, [{
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -1104,14 +1187,526 @@ function (_React$Component) {
           lineNumber: 5
         },
         __self: this
-      }, "Signup");
+      }, "Optin");
     }
   }]);
 
-  return Signup;
+  return Optin;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Signup);
+/* harmony default export */ __webpack_exports__["default"] = (Optin);
+
+/***/ }),
+
+/***/ "./src/components/home/Slider.js":
+/*!***************************************!*\
+  !*** ./src/components/home/Slider.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../img/gwcap.jpg */ "./src/img/gwcap.jpg");
+/* harmony import */ var _img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../img/fcrystal.jpg */ "./src/img/fcrystal.jpg");
+/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../img/hermesstone.jpg */ "./src/img/hermesstone.jpg");
+/* harmony import */ var _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../img/treeoflife.jpg */ "./src/img/treeoflife.jpg");
+/* harmony import */ var _img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\home\\Slider.js";
+
+ // Import Materialize
+
+
+
+
+
+
+
+var Slider =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Slider, _React$Component);
+
+  function Slider() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Slider);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Slider).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Slider, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      // Auto initialize all the things!
+      materialize_css__WEBPACK_IMPORTED_MODULE_7___default.a.AutoInit();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mt-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title center teal white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Wool Beanie $24.99"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title center teal white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, "Hermes Staff $11.99"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title center teal white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "Crystal Necklace $19.99"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title teal center white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "Tree of Life Necklace $9.99"))));
+    }
+  }]);
+
+  return Slider;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Slider);
+
+/***/ }),
+
+/***/ "./src/components/shop/Products.js":
+/*!*****************************************!*\
+  !*** ./src/components/shop/Products.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../img/gwcap.jpg */ "./src/img/gwcap.jpg");
+/* harmony import */ var _img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../img/fcrystal.jpg */ "./src/img/fcrystal.jpg");
+/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../img/hermesstone.jpg */ "./src/img/hermesstone.jpg");
+/* harmony import */ var _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../img/treeoflife.jpg */ "./src/img/treeoflife.jpg");
+/* harmony import */ var _img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\shop\\Products.js";
+
+ // Import Materialize
+
+
+
+
+
+
+
+var Products =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Products, _React$Component);
+
+  function Products() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Products);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Products).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Products, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      // Auto initialize all the things!
+      materialize_css__WEBPACK_IMPORTED_MODULE_7___default.a.AutoInit();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row mt-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_gwcap_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title center teal white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Wool Beanie $24.99"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title center teal white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, "Hermes Staff $11.99"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_9___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title center teal white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "Crystal Necklace $19.99"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m4 l3 mb-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+        to: "/",
+        class: "card",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-image",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_treeoflife_jpg__WEBPACK_IMPORTED_MODULE_11___default.a,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card-title teal center white-text darken-4 hoverul py-3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "Tree of Life Necklace $9.99"))));
+    }
+  }]);
+
+  return Products;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Products);
+
+/***/ }),
+
+/***/ "./src/components/shop/Shop.js":
+/*!*************************************!*\
+  !*** ./src/components/shop/Shop.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Products__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Products */ "./src/components/shop/Products.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\shop\\Shop.js";
+
+
+
+var Shop =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Shop, _React$Component);
+
+  function Shop() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Shop);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Shop).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Shop, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Products__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }));
+    }
+  }]);
+
+  return Shop;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Shop);
 
 /***/ }),
 
@@ -1134,6 +1729,39 @@ module.exports = __webpack_require__.p + "static/media/background.2968295f.jpg";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/media/fcrystal.59ae25a0.jpg";
+
+/***/ }),
+
+/***/ "./src/img/gwcap.jpg":
+/*!***************************!*\
+  !*** ./src/img/gwcap.jpg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/gwcap.f7a1f753.jpg";
+
+/***/ }),
+
+/***/ "./src/img/hermesstone.jpg":
+/*!*********************************!*\
+  !*** ./src/img/hermesstone.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/hermesstone.7826407d.jpg";
+
+/***/ }),
+
+/***/ "./src/img/treeoflife.jpg":
+/*!********************************!*\
+  !*** ./src/img/treeoflife.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/treeoflife.4fc7b9d6.jpg";
 
 /***/ }),
 
