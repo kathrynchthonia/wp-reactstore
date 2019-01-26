@@ -1,14 +1,15 @@
 {
   "main.js": "/wp-content/themes/hecate-rising/static/js/main.chunk.js",
   "main.js.map": "/wp-content/themes/hecate-rising/static/js/main.chunk.js.map",
-  "static/js/0.chunk.js": "/wp-content/themes/hecate-rising/static/js/0.chunk.js",
-  "static/js/0.chunk.js.map": "/wp-content/themes/hecate-rising/static/js/0.chunk.js.map",
+  "static/js/1.chunk.js": "/wp-content/themes/hecate-rising/static/js/1.chunk.js",
+  "static/js/1.chunk.js.map": "/wp-content/themes/hecate-rising/static/js/1.chunk.js.map",
   "runtime~main.js": "/wp-content/themes/hecate-rising/static/js/bundle.js",
   "runtime~main.js.map": "/wp-content/themes/hecate-rising/static/js/bundle.js.map",
   "static/media/background.jpg": "/wp-content/themes/hecate-rising/static/media/background.2968295f.jpg",
+  "static/media/fcrystal.jpg": "/wp-content/themes/hecate-rising/static/media/fcrystal.59ae25a0.jpg",
   "static/media/gwcap.jpg": "/wp-content/themes/hecate-rising/static/media/gwcap.f7a1f753.jpg",
   "static/media/hermesstone.jpg": "/wp-content/themes/hecate-rising/static/media/hermesstone.7826407d.jpg",
   "static/media/treeoflife.jpg": "/wp-content/themes/hecate-rising/static/media/treeoflife.4fc7b9d6.jpg",
-  "static/media/fcrystal.jpg": "/wp-content/themes/hecate-rising/static/media/fcrystal.59ae25a0.jpg",
+  "static/media/cosmos.jpg": "/wp-content/themes/hecate-rising/static/media/cosmos.020fc04f.jpg",
   "index.php": "/wp-content/themes/hecate-rising/index.php"
 }
