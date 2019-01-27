@@ -13,7 +13,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".cosmos {\n  background: url(" + escape(__webpack_require__(/*! ../img/cosmos.jpg */ "./src/img/cosmos.jpg")) + ");\n  background-attachment: fixed;\n  background-position: center top;\n  background-size: 100% auto; }\n\n.demarcation {\n  height: 2vh;\n  width: auto;\n  background: #3f51b5; }\n\n.primary-overlay {\n  background: rgba(0, 0, 0, 0.4);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden; }\n\n.main-header {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  height: 100vh;\n  color: #fff; }\n\n.main-header .showcase {\n  padding-top: 100px; }\n\n.main-header-inner {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 350px;\n  color: #fff; }\n\n.main-header-inner .showcase {\n  padding-top: 50px; }\n\n.active-link {\n  color: #3f51b5;\n  font-weight: bold;\n  font-style: italic; }\n\n.active-link-def {\n  color: #9fa8da;\n  font-weight: bold;\n  font-style: italic; }\n\n.featured-img {\n  margin: 5rem;\n  width: 60%;\n  height: 60%; }\n\n.lgi {\n  background-image: linear-gradient(to right, #1a237e, #5c6bc0) !important;\n  color: transparent;\n  -webkit-background-clip: text;\n          background-clip: text;\n  margin-top: 700px !important; }\n\n.hoverul:hover {\n  text-decoration: underline !important; }\n\n.hard-right {\n  text-align: right !important; }\n\n.optin {\n  padding: 4vh 4vw !important;\n  border: 4px solid teal;\n  border-radius: 10px; }\n\n.underline {\n  text-decoration: underline; }\n\n.bold {\n  -webkit-text-decoration: bold;\n          text-decoration: bold; }\n\n.italic {\n  -webkit-text-decoration: italic;\n          text-decoration: italic; }\n", ""]);
+exports.push([module.i, ".cosmos {\n  background: url(" + escape(__webpack_require__(/*! ../img/cosmos.jpg */ "./src/img/cosmos.jpg")) + ");\n  background-attachment: fixed;\n  background-position: center top;\n  background-size: 100% auto; }\n\n.demarcation {\n  height: 2vh;\n  width: auto;\n  background: #3f51b5; }\n\n.dt70 {\n  width: 70%; }\n\n.primary-overlay {\n  background: rgba(0, 0, 0, 0.4);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden; }\n\n.main-header {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  height: 100vh;\n  color: #fff; }\n\n.main-header .showcase {\n  padding-top: 100px; }\n\n.main-header-inner {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 350px;\n  color: #fff; }\n\n.main-header-inner .showcase {\n  padding-top: 50px; }\n\n.active-link {\n  color: #3f51b5;\n  font-weight: bold;\n  font-style: italic; }\n\n.active-link-def {\n  color: #9fa8da;\n  font-weight: bold;\n  font-style: italic; }\n\n.featured-img {\n  margin: 5rem;\n  width: 60%;\n  height: 60%; }\n\n.lgi {\n  background-image: linear-gradient(to right, #1a237e, #5c6bc0) !important;\n  color: transparent;\n  -webkit-background-clip: text;\n          background-clip: text;\n  margin-top: 700px !important; }\n\n.hoverul:hover {\n  text-decoration: underline !important; }\n\n.hard-right {\n  text-align: right !important; }\n\n.optin {\n  padding: 4vh 4vw !important;\n  border: 4px solid teal;\n  border-radius: 10px; }\n\n.underline {\n  text-decoration: underline; }\n\n.bold {\n  -webkit-text-decoration: bold;\n          text-decoration: bold; }\n\n.italic {\n  -webkit-text-decoration: italic;\n          text-decoration: italic; }\n", ""]);
 
 // exports
 
@@ -136,61 +136,6 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./src/components/Cart.js":
-/*!********************************!*\
-  !*** ./src/components/Cart.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-
-
-
-
-
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\Cart.js";
-
-
-var Cart =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Cart, _React$Component);
-
-  function Cart() {
-    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Cart);
-
-    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Cart).apply(this, arguments));
-  }
-
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Cart, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 5
-        },
-        __self: this
-      }, "Cart");
-    }
-  }]);
-
-  return Cart;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Cart);
-
-/***/ }),
-
 /***/ "./src/components/Checkout.js":
 /*!************************************!*\
   !*** ./src/components/Checkout.js ***!
@@ -230,12 +175,19 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container flow-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 5
+          lineNumber: 6
         },
         __self: this
-      }, "Checkout");
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        },
+        __self: this
+      }, "Checkout"));
     }
   }]);
 
@@ -310,7 +262,7 @@ function (_React$Component) {
           lineNumber: 9
         },
         __self: this
-      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti ducimus quaerat assumenda quos provident totam numquam repudiandae ipsum voluptate! Deserunt, odit. Repellat nostrum nam asperiores! Architecto ab perspiciatis ipsa sunt recusandae provident facilis animi commodi quam saepe. Voluptatum facilis eveniet consequatur quo ducimus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatem odit facilis aspernatur eligendi deserunt doloribus quibusdam similique cumque suscipit dicta tenetur porro harum quae laudantium possimus quod, alias, quaerat, molestias vero nam quam unde! Dolore, minima facilis asperiores optio officia quos ratione quidem! Adipisci, autem provident, impedit quae culpa repudiandae dolor voluptatibus ut nisi eveniet, error sit sunt voluptate. Laudantium at inventore perferendis officia eos consequuntur deleniti odio, possimus ut iste eligendi natus aperiam non culpa. Accusamus sint similique culpa tempore dolorum! Mollitia, rerum officia illo ullam laborum rem reiciendis cumque. Nihil itaque ipsam doloribus eum cum magni, cumque at deleniti? Quasi repellat officia dolores facilis architecto maxime quae tenetur vitae perspiciatis distinctio, saepe eaque recusandae magnam dicta temporibus nemo animi rerum quibusdam, quia beatae deleniti pariatur dolorum. Dolores atque vero deserunt laboriosam nemo incidunt unde delectus. Ipsum ducimus voluptatibus perspiciatis ullam quasi rerum sequi harum natus ab recusandae iste fuga saepe sapiente consequatur velit aspernatur fugit nobis ad numquam dolore, nostrum, laborum molestiae nemo sed! Mollitia velit quaerat ea reprehenderit, itaque sint tempora distinctio qui debitis atque? Cupiditate expedita quam assumenda autem totam vel voluptatum, nam iusto recusandae a tempora exercitationem repellat. Rerum fuga tempora, a sint dolorum cum corporis tenetur ab! Consequuntur eos expedita, quos veniam nulla ducimus delectus magnam vitae, in reprehenderit hic molestias quam? Deleniti, placeat. Omnis, doloribus voluptas temporibus quo tempore beatae recusandae hic cumque, sit laudantium distinctio molestias quae esse praesentium! Ratione placeat voluptas, ad voluptatibus ab, possimus labore laboriosam ducimus rem ipsam numquam vel, optio distinctio vero aliquam non nam corrupti velit! Delectus nam in reiciendis eveniet alias. Officiis error autem, doloribus in tempore ipsum totam quam cupiditate, enim nihil sequi aliquid obcaecati neque delectus sit rem a laboriosam id? Soluta quaerat temporibus blanditiis illo iusto, ullam, sapiente molestiae autem at architecto suscipit cumque eaque unde placeat nisi beatae vel. Neque, voluptates atque officia inventore facilis totam minus! Non hic aliquid blanditiis architecto optio praesentium reiciendis iusto a ea. Nihil, sunt facilis ipsa voluptate blanditiis quaerat assumenda temporibus asperiores accusantium. Quia ducimus aliquam natus. Reprehenderit amet ut sit, harum, ipsam repellendus eos voluptates et, commodi repudiandae dignissimos porro consectetur nisi doloremque nostrum tenetur aperiam id totam deserunt incidunt enim voluptatem quasi voluptate. Magni dolorum recusandae accusantium cum, ab perferendis quis id aliquid quidem numquam voluptate modi est quos voluptatem ad veritatis? Quis, amet cum! Culpa cupiditate, totam perferendis, iure quas, id praesentium nobis exercitationem facere itaque rerum sapiente quidem nisi qui sunt! Asperiores, tempore sunt. Dolorum, hic a quae alias neque cumque saepe explicabo nobis! Mollitia rem nemo dolor error. Corporis maiores voluptas incidunt quisquam distinctio atque recusandae dicta nisi repellat quidem, expedita neque, iure magni laborum! Quis quasi non id voluptatum? Voluptate ex iure architecto a, aperiam, ratione id mollitia quae, eos hic incidunt? Consequuntur dignissimos voluptatum ipsa iusto doloribus? Ut, commodi consectetur a quisquam doloremque ex voluptas obcaecati quam laudantium. A, sit mollitia assumenda dicta ipsum error quae in ipsa! Quidem repellat consequatur aspernatur, vitae ullam aperiam quas! Voluptates, molestias?")));
+      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti ducimus quaerat assumenda quos provident totam numquam repudiandae ipsum voluptate! Deserunt, odit. Repellat nostrum nam asperiores! Architecto ab perspiciatis ipsa sunt recusandae provident facilis animi commodi quam saepe. Voluptatum facilis eveniet consequatur quo ducimus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatem odit facilis aspernatur eligendi deserunt doloribus quibusdam similique cumque suscipit dicta tenetur porro harum quae laudantium possimus quod, alias, quaerat, molestias vero nam quam unde! Dolore, minima facilis asperiores optio officia quos ratione quidem! Adipisci, autem provident, impedit quae culpa repudiandae dolor voluptatibus ut nisi")));
     }
   }]);
 
@@ -360,25 +312,32 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "container flow-text",
+        className: "container indigo lighten-4",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 6
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container flow-text py-5 mt-5",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 7
         },
         __self: this
-      }, "Title"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
-      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti ducimus quaerat assumenda quos provident totam numquam repudiandae ipsum voluptate! Deserunt, odit. Repellat nostrum nam asperiores! Architecto ab perspiciatis ipsa sunt recusandae provident facilis animi commodi quam saepe. Voluptatum facilis eveniet consequatur quo ducimus!"));
+      }, "Title"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti ducimus quaerat assumenda quos provident totam numquam repudiandae ipsum voluptate! Deserunt, odit. Repellat nostrum nam asperiores! Architecto ab perspiciatis ipsa sunt recusandae provident facilis animi commodi quam saepe. Voluptatum facilis eveniet consequatur quo ducimus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatem odit facilis aspernatur eligendi deserunt doloribus quibusdam similique cumque suscipit dicta tenetur porro harum quae laudantium possimus quod, alias, quaerat, molestias vero nam quam unde! Dolore, minima facilis asperiores optio officia quos ratione quidem! Adipisci, autem provident, impedit quae culpa repudiandae dolor voluptatibus ut nisi")));
     }
   }]);
 
@@ -496,6 +455,184 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Signup);
+
+/***/ }),
+
+/***/ "./src/components/cart/Cart.js":
+/*!*************************************!*\
+  !*** ./src/components/cart/Cart.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _ProgressBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ProgressBar */ "./src/components/cart/ProgressBar.js");
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\cart\\Cart.js";
+ // Import Materialize
+
+
+
+
+var Cart =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Cart, _React$Component);
+
+  function Cart() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Cart);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Cart).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Cart, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      // Auto initialize all the things!
+      materialize_css__WEBPACK_IMPORTED_MODULE_6___default.a.AutoInit();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container indigo lighten-4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container flow-text py-5 mt-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_ProgressBar__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, "Cart"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti ducimus quaerat assumenda quos provident totam numquam repudiandae ipsum voluptate! Deserunt, odit. Repellat nostrum nam asperiores! Architecto ab perspiciatis ipsa sunt recusandae provident facilis animi commodi quam saepe. Voluptatum facilis eveniet consequatur quo ducimus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatem odit facilis aspernatur eligendi deserunt doloribus quibusdam similique cumque suscipit dicta tenetur porro harum quae laudantium possimus quod, alias, quaerat, molestias vero nam quam unde! Dolore, minima facilis asperiores optio officia quos ratione quidem! Adipisci, autem provident, impedit quae culpa repudiandae dolor voluptatibus ut nisi")));
+    }
+  }]);
+
+  return Cart;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Cart);
+
+/***/ }),
+
+/***/ "./src/components/cart/ProgressBar.js":
+/*!********************************************!*\
+  !*** ./src/components/cart/ProgressBar.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\cart\\ProgressBar.js";
+ // Import Materialize
+
+
+
+var ProgressBar =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ProgressBar, _React$Component);
+
+  function ProgressBar() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProgressBar);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ProgressBar).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProgressBar, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      // Auto initialize all the things!
+      materialize_css__WEBPACK_IMPORTED_MODULE_6___default.a.AutoInit();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, "Just One Step Left"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "progress",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "determinate dt70 teal darken-4",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      })));
+    }
+  }]);
+
+  return ProgressBar;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (ProgressBar);
 
 /***/ }),
 
@@ -2052,7 +2189,7 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "row mt-5 container flow-text",
+        className: "row mt-5 container flow-text indigo lighten-4",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
@@ -2086,25 +2223,99 @@ function (_React$Component) {
           lineNumber: 19
         },
         __self: this
-      }, "Hermes Staff Pendant"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
+      }, "Hermes Staff Pendant"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "input-field col s12",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }, "Select Your Color"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("select", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+        value: "1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "Blue"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+        value: "2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Indigo"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+        value: "3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "Cyan")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("label", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "Select Your Color")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "input-field col s12",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("select", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+        value: "1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+        value: "2",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, "2"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("option", {
+        value: "3",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, "4")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("label", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "Select Number of Items")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Link"], {
         to: "/cart",
         className: "btn-large waves-effect waves-light indigo white-text mb-5",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 37
         },
         __self: this
       }, "Add to Cart ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         class: "fas fa-cart-plus",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 41
         },
         __self: this
       }))));
@@ -2673,7 +2884,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Checkout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Checkout */ "./src/components/Checkout.js");
 /* harmony import */ var _components_Page__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Page */ "./src/components/Page.js");
 /* harmony import */ var _components_Post__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Post */ "./src/components/Post.js");
-/* harmony import */ var _components_Cart__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Cart */ "./src/components/Cart.js");
+/* harmony import */ var _components_cart_Cart__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/cart/Cart */ "./src/components/cart/Cart.js");
 
 
 
@@ -2784,7 +2995,7 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_6__["Route"], {
-        component: _components_Cart__WEBPACK_IMPORTED_MODULE_15__["default"],
+        component: _components_cart_Cart__WEBPACK_IMPORTED_MODULE_15__["default"],
         path: "/cart",
         __source: {
           fileName: _jsxFileName,
@@ -2971,5 +3182,5 @@ module.exports = __webpack_require__(/*! C:\Users\tony\Local Sites\hecaterising\
 
 /***/ })
 
-},[[0,"runtime~main",1]]]);
+},[[0,"runtime~main",0]]]);
 //# sourceMappingURL=main.chunk.js.map
