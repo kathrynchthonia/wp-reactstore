@@ -13,7 +13,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".cosmos {\n  background: url(" + escape(__webpack_require__(/*! ../img/cosmos.jpg */ "./src/img/cosmos.jpg")) + ");\n  background-attachment: fixed;\n  background-position: center top;\n  background-size: 100% auto; }\n\n.demarcation {\n  height: 2vh;\n  width: auto;\n  background: #3f51b5; }\n\n.dt70 {\n  width: 70%; }\n\n.primary-overlay {\n  background: rgba(0, 0, 0, 0.4);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden; }\n\n.main-header {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  height: 100vh;\n  color: #fff; }\n\n.main-header .showcase {\n  padding-top: 100px; }\n\n.main-header-inner {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 350px;\n  color: #fff; }\n\n.main-header-inner .showcase {\n  padding-top: 50px; }\n\n.active-link {\n  color: #3f51b5;\n  font-weight: bold;\n  font-style: italic; }\n\n.active-link-def {\n  color: #9fa8da;\n  font-weight: bold;\n  font-style: italic; }\n\n.featured-img {\n  margin: 5rem;\n  width: 60%;\n  height: 60%; }\n\n.lgi {\n  background-image: linear-gradient(to right, #1a237e, #5c6bc0) !important;\n  color: transparent;\n  -webkit-background-clip: text;\n          background-clip: text;\n  margin-top: 700px !important; }\n\n.hoverul:hover {\n  text-decoration: underline !important; }\n\n.hard-right {\n  text-align: right !important; }\n\n.optin {\n  padding: 4vh 4vw !important;\n  border: 4px solid teal;\n  border-radius: 10px; }\n\n.underline {\n  text-decoration: underline; }\n\n.bold {\n  -webkit-text-decoration: bold;\n          text-decoration: bold; }\n\n.italic {\n  -webkit-text-decoration: italic;\n          text-decoration: italic; }\n", ""]);
+exports.push([module.i, ".cosmos {\n  background: url(" + escape(__webpack_require__(/*! ../img/cosmos.jpg */ "./src/img/cosmos.jpg")) + ");\n  background-attachment: fixed;\n  background-position: center top;\n  background-size: 100% auto; }\n\n.demarcation {\n  height: 2vh;\n  width: auto;\n  background: #3f51b5; }\n\n.dt70 {\n  width: 70%; }\n\n.primary-overlay {\n  background: rgba(0, 0, 0, 0.4);\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  overflow: hidden; }\n\n.main-header {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  height: 100vh;\n  color: #fff; }\n\n.main-header .showcase {\n  padding-top: 100px; }\n\n.main-header-inner {\n  background: url(" + escape(__webpack_require__(/*! ../img/background.jpg */ "./src/img/background.jpg")) + ");\n  background-size: cover;\n  background-position: center;\n  min-height: 350px;\n  color: #fff; }\n\n.main-header-inner .showcase {\n  padding-top: 50px; }\n\n.active-link {\n  color: #3f51b5;\n  font-weight: bold;\n  font-style: italic; }\n\n.active-link-def {\n  color: #9fa8da;\n  font-weight: bold;\n  font-style: italic; }\n\n.bold {\n  font-weight: bold; }\n\n.featured-img {\n  margin: 5rem;\n  width: 60%;\n  height: 60%; }\n\n.lgi {\n  background-image: linear-gradient(to right, #1a237e, #5c6bc0) !important;\n  color: transparent;\n  -webkit-background-clip: text;\n          background-clip: text;\n  margin-top: 700px !important; }\n\n.hoverul:hover {\n  text-decoration: underline !important; }\n\n.hard-right {\n  text-align: right !important; }\n\n.optin {\n  padding: 4vh 4vw !important;\n  border: 4px solid teal;\n  border-radius: 10px; }\n\n.thumbnail {\n  width: 8vw !important;\n  height: 8vh !important; }\n\n.underline {\n  text-decoration: underline; }\n\n.bold {\n  -webkit-text-decoration: bold;\n          text-decoration: bold; }\n\n.italic {\n  -webkit-text-decoration: italic;\n          text-decoration: italic; }\n", ""]);
 
 // exports
 
@@ -476,7 +476,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
 /* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _ProgressBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ProgressBar */ "./src/components/cart/ProgressBar.js");
+/* harmony import */ var _Items__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Items */ "./src/components/cart/Items.js");
+/* harmony import */ var _Totals__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Totals */ "./src/components/cart/Totals.js");
+/* harmony import */ var _PaypalButton__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./PaypalButton */ "./src/components/cart/PaypalButton.js");
 
 
 
@@ -484,6 +486,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\cart\\Cart.js";
  // Import Materialize
+
+
 
 
 
@@ -512,35 +516,41 @@ function (_React$Component) {
         className: "container indigo lighten-4",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "container flow-text py-5 mt-5",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_ProgressBar__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container py-5 mt-5",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }, "Cart"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
-      }, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti ducimus quaerat assumenda quos provident totam numquam repudiandae ipsum voluptate! Deserunt, odit. Repellat nostrum nam asperiores! Architecto ab perspiciatis ipsa sunt recusandae provident facilis animi commodi quam saepe. Voluptatum facilis eveniet consequatur quo ducimus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis voluptatem odit facilis aspernatur eligendi deserunt doloribus quibusdam similique cumque suscipit dicta tenetur porro harum quae laudantium possimus quod, alias, quaerat, molestias vero nam quam unde! Dolore, minima facilis asperiores optio officia quos ratione quidem! Adipisci, autem provident, impedit quae culpa repudiandae dolor voluptatibus ut nisi")));
+      }, "Cart"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Items__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Totals__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_PaypalButton__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      })));
     }
   }]);
 
@@ -551,10 +561,536 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./src/components/cart/ProgressBar.js":
-/*!********************************************!*\
-  !*** ./src/components/cart/ProgressBar.js ***!
-  \********************************************/
+/***/ "./src/components/cart/Items.js":
+/*!**************************************!*\
+  !*** ./src/components/cart/Items.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../img/fcrystal.jpg */ "./src/img/fcrystal.jpg");
+/* harmony import */ var _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../img/hermesstone.jpg */ "./src/img/hermesstone.jpg");
+/* harmony import */ var _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _img_wcap_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../img/wcap.jpg */ "./src/img/wcap.jpg");
+/* harmony import */ var _img_wcap_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_img_wcap_jpg__WEBPACK_IMPORTED_MODULE_9__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\cart\\Items.js";
+ // Import Materialize
+
+
+
+
+
+
+var Items =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Items, _React$Component);
+
+  function Items() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Items);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Items).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Items, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      // Auto initialize all the things!
+      materialize_css__WEBPACK_IMPORTED_MODULE_6___default.a.AutoInit();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("table", {
+        className: "responsive-table striped",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("thead", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "Product"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Style"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "Price"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, "Quantity"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("th", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "Total"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tbody", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        class: "fas fa-times-circle",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
+        alt: "thumbnail",
+        className: "thumbnail",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, "Hermes Staff Pendant"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, "$9.99"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }, "$9.99")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        class: "fas fa-times-circle",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_wcap_jpg__WEBPACK_IMPORTED_MODULE_9___default.a,
+        alt: "thumbnail",
+        className: "thumbnail",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, "Wool Beanie"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }, "White/Blue"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "$24.99"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }, "$24.99")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        class: "fas fa-times-circle",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+        alt: "thumbnail",
+        className: "thumbnail",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
+      }, "Crystal"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      }, "$14.99"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }, "$14.99")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        class: "fas fa-times-circle",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_hermesstone_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
+        alt: "thumbnail",
+        className: "thumbnail",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77
+        },
+        __self: this
+      }, "Hermes Staff Pendant"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79
+        },
+        __self: this
+      }, "$9.99"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81
+        },
+        __self: this
+      }, "$9.99")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 83
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        class: "fas fa-times-circle",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 87
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_wcap_jpg__WEBPACK_IMPORTED_MODULE_9___default.a,
+        alt: "thumbnail",
+        className: "thumbnail",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 90
+        },
+        __self: this
+      }, "Wool Beanie"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }, "White/Blue"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, "$24.99"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      }, "$24.99")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        class: "fas fa-times-circle",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 98
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 100
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: _img_fcrystal_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+        alt: "thumbnail",
+        className: "thumbnail",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      }, "Crystal"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }, "$14.99"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
+        },
+        __self: this
+      }, "1"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 107
+        },
+        __self: this
+      }, "$14.99")))));
+    }
+  }]);
+
+  return Items;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Items);
+
+/***/ }),
+
+/***/ "./src/components/cart/PaypalButton.js":
+/*!*********************************************!*\
+  !*** ./src/components/cart/PaypalButton.js ***!
+  \*********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -574,23 +1110,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\cart\\ProgressBar.js";
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\cart\\PaypalButton.js";
  // Import Materialize
 
 
 
-var ProgressBar =
+var PaypalButton =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ProgressBar, _React$Component);
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(PaypalButton, _React$Component);
 
-  function ProgressBar() {
-    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProgressBar);
+  function PaypalButton() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, PaypalButton);
 
-    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ProgressBar).apply(this, arguments));
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(PaypalButton).apply(this, arguments));
   }
 
-  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProgressBar, [{
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(PaypalButton, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       // Auto initialize all the things!
@@ -600,39 +1136,219 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col m6 hide-on-small",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         },
         __self: this
-      }, "Just One Step Left"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "progress",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m6",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "determinate dt70 teal darken-4",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "https://www.paypalobjects.com/webstatic/en_US/i/buttons/checkout-logo-large.png",
+        alt: "Check out with PayPal",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png",
+        alt: "Buy now with PayPal",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
         },
         __self: this
       })));
     }
   }]);
 
-  return ProgressBar;
+  return PaypalButton;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (ProgressBar);
+/* harmony default export */ __webpack_exports__["default"] = (PaypalButton);
+
+/***/ }),
+
+/***/ "./src/components/cart/Totals.js":
+/*!***************************************!*\
+  !*** ./src/components/cart/Totals.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! materialize-css */ "./node_modules/materialize-css/dist/js/materialize.js");
+/* harmony import */ var materialize_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(materialize_css__WEBPACK_IMPORTED_MODULE_6__);
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\tony\\Local Sites\\hecaterising\\app\\public\\wp-content\\themes\\hecate-rising\\react-src\\src\\components\\cart\\Totals.js";
+ // Import Materialize
+
+
+
+var Items =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Items, _React$Component);
+
+  function Items() {
+    Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Items);
+
+    return Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Items).apply(this, arguments));
+  }
+
+  Object(C_Users_tony_Local_Sites_hecaterising_app_public_wp_content_themes_hecate_rising_react_src_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Items, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      // Auto initialize all the things!
+      materialize_css__WEBPACK_IMPORTED_MODULE_6___default.a.AutoInit();
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col m6 hide-on-small",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col s12 m6",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("table", {
+        className: "striped",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tbody", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        className: "bold",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, "Subtotal"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, "$9.99")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        className: "bold",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, "Shipping"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, "Free!")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        className: "bold",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "Tax"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, "$0.74")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        className: "bold",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, "Total"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, "$10.73"))))));
+    }
+  }]);
+
+  return Items;
+}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Items);
 
 /***/ }),
 
@@ -2683,6 +3399,17 @@ module.exports = __webpack_require__.p + "static/media/treeoflife.4fc7b9d6.jpg";
 
 /***/ }),
 
+/***/ "./src/img/wcap.jpg":
+/*!**************************!*\
+  !*** ./src/img/wcap.jpg ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/wcap.20edfa9b.jpg";
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -3182,5 +3909,5 @@ module.exports = __webpack_require__(/*! C:\Users\tony\Local Sites\hecaterising\
 
 /***/ })
 
-},[[0,"runtime~main",0]]]);
+},[[0,"runtime~main",1]]]);
 //# sourceMappingURL=main.chunk.js.map
